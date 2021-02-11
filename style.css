@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    background: rgb(76, 81, 88);
+    padding-top: 60px;
+    width: 900px;
+    margin: 60px auto;
+    
+}
+
+button {
+    margin: 10px;
+    padding: 10px 40px;
+    font-weight: 900;
+    background: white;
+    border: 3px solid black;
+}
+button:hover {
+    background: black;
+    color: white;
+    border: 3px solid white;
+}
+
+.gallery1 {
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539_1280.jpg");
+}
+
+.gallery2 {
+    background-image: url("https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_1280.jpg");
+}
+
+.gallery3 {
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg");
+}
+
+.gallery4 {
+    background-image: url("https://cdn.pixabay.com/photo/2020/09/02/20/52/dock-5539524_1280.jpg");
+}
+
+.gallery5 {
+    background-image: url("https://cdn.pixabay.com/photo/2020/06/15/15/34/fog-5302291_1280.jpg");
+}
