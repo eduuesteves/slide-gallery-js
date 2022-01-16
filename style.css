@@ -4,21 +4,38 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(51, 50, 50);
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    background: black;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 56px;
+}
+
 .gallery {
-    width: 800px;
-    height: 400px;
+    width: calc(90% - 20px);
+    height: 700px;
     margin: auto;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .content {
     background: rgb(76, 81, 88);
     padding-top: 60px;
-    width: 900px;
-    margin: 60px auto;
-    
+    width: 90%;
+    margin: 10px auto;
 }
 
 button {
